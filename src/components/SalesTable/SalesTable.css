@@ -1,0 +1,33 @@
+.sales-table-container {
+  flex: 1;
+  display: flex;
+  overflow-y: scroll;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+  box-shadow: 5px 5px 5px #00000011;
+}
+
+.sales-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sales-table-container tr {
+  border-top: 1px solid #EEE;
+}
+
+.sales-table-container th {
+	background-color: white;
+	color: #333;
+	font-weight: 500;
+	font-size: 0.75em;
+  padding: 20px 10px;
+  text-align: left;
+}
+
+.sales-table-container td {
+  color: #9AC;
+  font-size: 0.85em;
+  padding: 20px 10px;
+}
