@@ -15,4 +15,10 @@
 .product-sales-section {
   flex: 7;
   display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.product-sales-section > div {
+  flex-basis: 0;
 }

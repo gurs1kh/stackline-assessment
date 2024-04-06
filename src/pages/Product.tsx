@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import { useAppDispatch } from '../app/hooks';
 import { fetchProduct, selectProduct } from '../features/product/productSlice';
 import { ProductDetailsCard } from '../components/ProductDetailsCard';
+import { SalesGraph } from '../components/SalesGraph';
 import './Product.css';
 
 export const ProductPage = () => {
@@ -21,7 +22,8 @@ export const ProductPage = () => {
         <ProductDetailsCard product={product} />
       </div>
       <div className='product-sales-section'>
-
+        <SalesGraph sales={product.sales} />
+        <div style={{ flex: 1 }} />
       </div>
     </div>
   )
