@@ -1,0 +1,41 @@
+.product-details-card {
+  flex: 1;
+  margin: 15px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 5px #00000011;
+}
+
+.product-description {
+  padding: 40px;
+}
+
+.product-image {
+  max-width: 60%;
+}
+
+.product-title {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.product-subtitle {
+  color: gray;
+}
+
+.product-tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #EEE;
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  gap: 7.5px;
+}
+
+.product-tag {
+  font-size: 0.85em;
+  border: 1px solid #EEE;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
